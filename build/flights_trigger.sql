@@ -1,0 +1,9 @@
+CREATE OR REPLACE TRIGGER flights_trigger
+BEFORE INSERT ON flights
+FOR EACH ROW
+BEGIN
+  SELECT flights_seq.NEXTVAL
+  INTO :new.id
+  FROM dual;
+END;
+/
