@@ -1,0 +1,10 @@
+/* Main content style */
+body {
+  color: rgb(12, 35, 64);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+main h1 {
+  font-size: 2em;
+}

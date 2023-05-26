@@ -1,0 +1,180 @@
+:root {
+  --navy: #0c2340;
+  --gold: #d4af37;
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(12,35,64,0.75);
+  z-index: 2;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  width: 30vw;
+  border-radius: 10px;
+  border: 5px solid var(--gold);
+  padding: 2vh 5vw; 
+}
+
+td a {
+  text-decoration: none;
+  color: inherit;
+}
+
+td a:hover {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+  font-weight: normal;
+}
+
+.info p {
+  padding-left: 2vw;
+}
+
+.search-bar {
+  display: flex;
+  width: 60%;
+  margin: 5vh 35% 0 5%;
+  padding-bottom: 5vh;
+  justify-content: space-between;
+  border-bottom: 1px solid #d2d2d2;
+  align-items: center;
+}
+
+.add-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.add {
+  display: flex;
+  width: 20%;
+  margin: 5vh 35% 0 5%;
+  gap: 3vh;
+  padding-bottom: 3vh;
+  justify-content: space-around;
+  border-bottom: 1px solid #d2d2d2;
+  flex-direction: column;
+}
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+label {
+  font-size: 24px;
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+}
+
+select {
+  height: 4vh;
+  font-family: 'League Gothic', sans-serif;  
+  font-size: 20px; 
+  width: 4vw;
+}
+
+input {
+  height: 4vh;
+  font-family: 'League Gothic', sans-serif;  
+  font-size: 20px; 
+  width: 4vw;
+  padding: 0 5px;
+}
+
+.submit-button {
+  background-color: var(--navy); 
+  font-size: 2em;
+  font-style: italic;
+  color: white;
+  border: 0px solid black;
+  border-radius: 5px;
+  width: 6vw;
+  height: 6vh;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  color: var(--gold);
+}
+
+table {
+  margin-left: 5%;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  padding: 2vh 0 2vh 2vw;
+  margin-bottom: 1vh;
+  border-bottom: 1px solid var(--navy);
+}
+
+.odd {
+  background-color: #e1e8f2;
+}
+
+h1 {
+  margin-left: 5%;
+}
+
+td {
+  padding: 1vh 0 1vh 2vw;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+}
+
+.button {
+  border: none;
+  font-size: 1.25em;  
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: var(--gold);
+}
+
+.e-message {
+  font-size: 1.5em;  
+  font-family: 'League Gothic', sans-serif;  
+  font-style: italic;
+  margin: 2vh 0 2vh 7vw;
+  color: red;
+}

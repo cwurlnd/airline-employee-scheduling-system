@@ -1,0 +1,91 @@
+/* Set the body to airplane gif */
+:root {
+	--navy: #0c2340;
+	--gold: #d4af37;
+}
+
+body {
+    background-image: url('../icons/Landing_background.gif');
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'League Gothic', sans-serif;
+    color: var(--navy);
+  }
+  
+.content {
+    position: relative;
+    z-index: 1;
+    margin-top: 10vh;
+    text-align: center;
+    color: var(--navy);
+}
+
+/* Style the logo */
+.logo {
+  width: 65%;
+  height: auto; 
+  margin-bottom: 6vh;
+}
+
+/* Set the font to Open Sans */
+button {
+    font-family: 'League Gothic', sans-serif;
+    color: var(--navy);
+}
+
+/* Style the heading and paragraph */
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'League Gothic', sans-serif;
+    color: #d4af37;
+    text-align: center;
+    margin-top: 200px;
+}
+
+p {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the links container */
+.links-container {
+    background-color: rgba(12,35,64,0.9);
+    border: 5px solid var(--gold);
+    border-radius: 10px;
+    padding: 10vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+/* Style the login button */
+.login-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--navy);
+    background-color: var(--gold);
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 3vh;
+	font-style: italic;
+}
+
+.login-button:hover {
+    background-color: #b38f28;
+}
+  

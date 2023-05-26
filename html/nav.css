@@ -1,0 +1,42 @@
+nav {
+        background-color: rgb(12, 35, 64);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vh 3vw;
+}
+
+nav ul {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+}
+
+nav ul li {
+        margin: 0 20px;
+}
+
+nav ul li a {
+        color: white;
+        text-decoration: none;
+		font-family: 'League Gothic', sans-serif;
+		font-size: 1.5em;
+}
+
+nav ul li a:hover {
+	color: #d2d2d2;
+}
+
+nav a {
+	width: 20%;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+}
+
+.current {
+	color: #d4af37;
+}
