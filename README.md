@@ -10,6 +10,11 @@ It contains many various features:
 - Inserting flights via CSV
 - and much more!
 
+The project was built on Apache and with an Oracle 11g Database. All other miscellaneous files have been removed for brevity.
+The two main folders seen are build and html. 
+build contains the necessary CSVs and SQL statements to create the entitys and relationships needed.
+html contains the front-end code, including PHP and OCI8 to connect to the database created.
+
 Here are some screenshots of the project:
 ![1](https://user-images.githubusercontent.com/69475242/241304372-32563754-897f-4838-95cb-be1b43978091.png "1")
 Login Page
