@@ -12,7 +12,7 @@ It contains many various features:
 
 The project was built on Apache and with an Oracle 11g Database. All other miscellaneous files have been removed for brevity.
 The two main folders seen are build and html. 
-build contains the necessary CSVs, SQL statements, and CTL files to create the entitys and relationships needed.
+build contains the necessary CSVs, SQL statements (including triggers and sequences), and CTL files to create the entitys and relationships needed.
 html contains the front-end code, including PHP and OCI8 to connect to the database created.
 
 Here are some screenshots of the project:
